@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Count</title>
+</head>
+<body>
+    <p id="user-count">User Count: Loading...</p>
+
+    <script>
+       
+        function incrementUserCount() {
+            let userCount = localStorage.getItem('userCount') || 0;
+            userCount = parseInt(userCount) + 1;
+            localStorage.setItem('userCount', userCount);
+
+            document.getElementById('user-count').textContent = `User Count: ${userCount}`;
+        }
+        incrementUserCount();
+    </script>
+</body>
+</html>
