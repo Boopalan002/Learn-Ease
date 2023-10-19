@@ -575,14 +575,14 @@ html{
 }
 
 .card1{
-    background-image: url("../images/questionBank.jpg");
+    background-image: url("../images/syllabus.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #22283177;
     background-blend-mode: multiply;
 }
 .card2{
-    background-image: url("../images/syllabus.jpg");
+    background-image: url("../images/questionBank.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #22283177;
